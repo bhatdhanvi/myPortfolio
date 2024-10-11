@@ -7,7 +7,7 @@
   box-sizing: border-box;
 }
 .container {
-  background-image: url('/images/background.jpg'); /* Background image */
+  background-image: url('images/background.jpg'); /* Background image */
   
 }
 
