@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dhanvi Bhat</title>
+  <link rel="icon" href="/images/portfolioIcon.png">
+  <link rel="stylesheet" href="/Frontend/style.css">
+</head>
+<body>
+<div class="container">
+      <div class="sidebar">
+        <nav>
+          <ul>
+            <li><a href="/Frontend/mainPage.html#section1">Overview</a></li>
+            <li><a href="/Frontend/mainPage.html#section2">Skills</a></li>
+            <li><a href="/Frontend/mainPage.html#section3">Projects</a></li>
+            <li><a href="/Frontend/mainPage.html#section4">Internships</a></li>
+            <li><a href="/Frontend/mainPage.html#section5">Milestones</a></li>
+          </ul>
+        </nav>
+        <div class="connect">
+          <p><b>My Details&nbsp;:</b></p>
+          <p>Phone Number&nbsp;:7349754356</p>
+          <p>Email&nbsp;:dhanvigbhat@gmail.com</p>
+        </div>
+        <div class="logoHandle">
+          <a href="https://linkedin.com/in/bhatdhanvi"><img src="/images/linkdin.png" alt="Linkdin Handle"></a>
+          <a href="https://github.com/bhatdhanvi"><img src="/images/github.jpeg"alt="Github Handle"></a>
+          <a href="https://leetcode.com/u/bhatdhanvi/"><img src="/images/leetcode.jpeg"alt="Leetcode Handle"></a>
+        </div>
+      </div>
+      <div class="main">
+        <div class="info">
+          <div class="intro">
+            <div class="name">I am Dhanvi Bhat</div>
+            <div class="about">Computer Science Engineer</div>
+            <div class="int">Welcome to my Portfolio!!</div>
+            <div style="font-size: 20px;">Feel free to explore!!</div>
+            <div class="buttons">
+              <a href="/Frontend/MyCV.pdf" target="_blank"><button><b>Download CV</b></button></a>
+              <button id="contactMeBtn"><b>Contact Me</b></button>
+            </div>
+          </div>
+          <div class="photo">
+            <img src="/images/MyPhoto.jpeg" alt="Image Dhanvi">
+          </div>
+        </div>
+      </div>
+</div>
+
+<!-- Modal for Contact Form -->
+<div id="contactModal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <h2>Contact Me</h2><br>
+    <form id="contactForm">
+      <label for="name">Your Name:</label>
+      <input type="text" id="name" required><br><br>
+      <label for="email">Your Email:</label>
+      <input type="email" id="email" required><br><br>
+      <label for="message">Your Message:</label>
+      <textarea id="message" required></textarea><br><br>
+      <button type="submit" id="sendBtn">Send</button>
+    </form>
+  </div>
+</div>
+
+<script src="/Frontend/index.js"></script>
+</body>
+</html>
