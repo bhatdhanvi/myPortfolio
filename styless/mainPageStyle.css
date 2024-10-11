@@ -7,7 +7,7 @@
 }
 
 .outcontainer {
-  background-image:url('background.jpg');
+  background-image:url('https://bhatdhanvi.github.io/myPortfolio/background.jpg');
   display: flex;
   flex-direction: column;
   align-items: center;
