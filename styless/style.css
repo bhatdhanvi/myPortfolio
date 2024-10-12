@@ -162,7 +162,7 @@
 @media (max-width: 768px) {
   .info {
     flex-direction: column;
-    padding: 50px;
+    padding: 20px; /* Reduced padding for smaller screens */
   }
 
   .intro {
@@ -175,24 +175,25 @@
   }
 
   .sidebar {
-    width: 25vw;
+    width: 100vw; /* Full width on mobile */
   }
 
   .main {
     color: white;
-    width: 75vw;
+    width: 100vw; /* Full width on mobile */
   }
 
   .hello {
     color: white;
-    font-size: 45px;
+    font-size: 35px; /* Smaller font size for better mobile fit */
   }
 
   .name {
     color: white;
-    font-size: 30px;
+    font-size: 25px; /* Adjusted for mobile readability */
   }
 }
+
 /* Modal Styles */
 .modal {
   display: none;
